@@ -2,20 +2,21 @@ import { useState } from "react";
 import "./App.css";
 import Exercice1 from "./components/Exercice1";
 import Exercice2 from "./components/Exercice2";
-
+import Exercice3 from "./components/Exercice3";
 function App() {
   const [output, setOutput] = useState(null);
 
   const exercises = {
   1: () => <Exercice1 />,
-  2: () => <Exercice2 />
+  2: () => <Exercice2 />,
+  3: () => <Exercice3 />
 };
 
   return (
     <div style={{ padding: "20px" }}>
       <h2>Interface Exercices JSX</h2>
       <div>
-  {Array.from({ length: 2 }, (_, i) => (
+  {Array.from({ length: 3 }, (_, i) => (
     <button
       key={i}
       style={{ margin: "5px", padding: "10px 15px" }}
@@ -25,6 +26,7 @@ function App() {
     </button>
   ))}
 </div>
+
 
       <div
         style={{
