@@ -32,7 +32,7 @@ function App() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Interface Exercices JSX</h2>
+      <h2>Exercices seance4-1-Cours</h2>
       <div>
         {Array.from({ length: 11 }, (_, i) => (
           <button
