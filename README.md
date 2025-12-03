@@ -6,7 +6,8 @@
 
 ## <a name="french-description"></a> Description en français
 
-Ces exercices proviennent du cours **C12 : Développer en Front-end, S4 : Le langage JSX**. Ils illustrent l’utilisation de JSX dans React. 
+Ces exercices proviennent du cours **C12 : Développer en Front-end, S4 : Le langage JSX**. Ils illustrent l’utilisation de JSX dans React. [📄 Télécharger le PDF des exercices](docs/Seance4-1-Cours.pdf)
+
 
 1. **Hello React avec JSX**  
    Affiche un paragraphe `<p>` contenant le texte "Hello React" en utilisant JSX et ReactDOM.
@@ -47,7 +48,7 @@ Ces exercices montrent les bases de JSX et comment créer des composants modulai
 
 ## <a name="english-description"></a> Description in English
 
-These exercises come from the course **C12: Front-end Development, S4: JSX Language**. They illustrate how to use JSX in React.
+These exercises come from the course **C12: Front-end Development, S4: JSX Language**. They illustrate how to use JSX in React. [📄 Download the pdf](docs/Seance4-1-Cours.pdf)
 
 1. **Hello React with JSX**  
    Displays a `<p>` paragraph containing "Hello React" using JSX and ReactDOM.
